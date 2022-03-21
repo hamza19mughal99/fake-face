@@ -33,12 +33,10 @@ class Home extends React.Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-
                 {/*---------------------------------banner-------------------------------*/}
                 <div>
                     <img src={Banner} alt={'banner'}/>
                 </div>
-
 
                 {/* -------------------------------image gallery section--------------------------- */}
                 <div className={'img_gallery'}>
@@ -95,9 +93,7 @@ class Home extends React.Component {
                             <Col md={2}>
                                 <img src={img2} alt={'img1'} />
                             </Col>
-
                         </Row>
-
                     </Container>
                     <div className={'d-flex justify-content-center pt-5 pb-5'}>
                         <button className="load_more">LOAD MORE <BsArrowRightShort/></button>
