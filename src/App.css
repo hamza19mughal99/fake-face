@@ -55,9 +55,22 @@ img{
     max-width: 100%;
 }
 
+button.navbar-toggler.collapsed {
+    background-color: #EAD0BB;
+}
+.bottom_img .col-md-2{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
 .img_gallery{
     background-color: #EAD0BB;
     padding: 30px 0;
+}
+.img_gallery img:hover{
+    transform: scale(1.5);
+    transition: all 0.8s;
+    cursor: pointer;
 }
 
 .random_face{

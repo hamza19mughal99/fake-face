@@ -139,7 +139,7 @@ class Home extends React.Component {
                     </div>
                     <Container>
                         <h4 style={{color: '#fff', fontWeight: '700'}} className={'text-center pb-3'}>GENERATOR OF FAKE FACES OF NON-EXISTENT HUMANS</h4>
-                        <Row>
+                        <Row className={'bottom_img'}>
                             <Col md={2}>
                                 <img src={simg1} alt={'img1'} />
                             </Col>
