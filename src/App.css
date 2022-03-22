@@ -1,5 +1,6 @@
 .home_Nav{
   border-right: 1px solid #8080802b;
+    padding-right: 25px;
 }
 
 .load_more{
@@ -31,11 +32,13 @@
     margin-right: 10px;
     background: transparent;
     border-radius: 100px;
+    cursor: pointer;
     border: 1px solid #fff;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light {
   background-color: #0D0A07;
+    border-bottom: 1px solid;
 }
 
 a.navbar-brand {
@@ -44,6 +47,9 @@ a.navbar-brand {
 
 .navbar-nav a{
     color: #fff !important;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 25px;
 }
 
 a.home_Nav.nav-link{
@@ -58,6 +64,9 @@ img{
 button.navbar-toggler.collapsed {
     background-color: #EAD0BB;
 }
+.navbar-light .navbar-toggler {
+    background-color: #EAD0BB;
+}
 .bottom_img .col-md-2{
     margin-bottom: 10px;
     display: flex;
@@ -66,15 +75,31 @@ button.navbar-toggler.collapsed {
 .img_gallery{
     background-color: #EAD0BB;
     padding: 30px 0;
+    transition: all 0.8s;
 }
 .img_gallery img:hover{
     transform: scale(1.5);
     transition: all 0.8s;
     cursor: pointer;
+    border: 1px solid #191008;
+    background-color: #191008
 }
 
 .random_face{
     background-color: #191008;
+}
+.contact_main{
+    background-color: #0D0A07;
+    color: #fff;
+}
+
+.contact_main .who_we{
+    padding: 30px 0;
+    text-align: center;
+}
+.contact_main p{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .random_face_text{
@@ -122,4 +147,82 @@ button.navbar-toggler.collapsed {
 .does_exist h2{
 margin: 0;
 text-align: center;
+}
+
+.contact_owners {
+    background-color: #fff;
+    color: #0D0A07;
+    border-radius: 20px;
+    text-align: center;
+    position: relative !important;
+    padding: 75px 0 40px 0;
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 1200px){
+    .contact_owners {
+        width: 90%;
+    }
+}
+
+.contact_owners img {
+    max-width: 200px;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.contact_owners .img_div {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.contact_owners .role{
+    width: 50%;
+    margin: 0 auto;
+    background:  #0D0A07;
+    padding: 6px;
+    border-radius: 6px;
+    color: #fff !important;
+}
+
+.contact_owners h5, .contact_owners .role{
+    font-weight: 800 !important;
+    margin-top: 15px;
+}
+.contact_owners .role{
+    font-weight: 500 !important;
+}
+
+.contact_owners p{
+    margin-top: 15px;
+}
+
+.contact_owners p svg{
+    color: #0D0A07;
+}
+
+.contact_owners .divider{
+    width: 55%;
+    margin: 20px auto;
+    font-weight: 700;
+}
+
+.owner_social svg{
+    width: 35px;
+    height: 35px;
+    padding: 11px;
+    margin-right: 10px;
+    background: transparent;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #0D0A07;
+}
+
+.second_col{
+    margin-bottom: 130px !important;
 }
