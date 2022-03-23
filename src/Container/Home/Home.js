@@ -34,7 +34,7 @@ class Home extends React.Component {
                         <hr/>
                     </div>
                     <Container>
-                        <Row>
+                        <Row className={'all_img'}>
                             <Col md={2}>
                                  <img src={img1} alt={'img1'} />
                             </Col>
@@ -54,7 +54,7 @@ class Home extends React.Component {
                                 <img src={img1} alt={'img1'} />
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className={'all_img'}>
                             <Col md={2}>
                                 <img src={img2} alt={'img1'} />
                             </Col>

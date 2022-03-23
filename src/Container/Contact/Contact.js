@@ -8,6 +8,7 @@ import Owner4 from "../../assets/owner4.png";
 import {FiPhoneCall} from "react-icons/fi";
 import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
 import {AiOutlineTwitter} from "react-icons/ai";
+import {BsArrowRightShort} from "react-icons/bs";
 
 const Contact = () => {
     return (
@@ -93,6 +94,9 @@ const Contact = () => {
                             </div>
                         </Col>
         </Row>
+                    <div className={'d-flex justify-content-center pt-5 pb-5'}>
+                        <button className="request_more">Request a Demo <BsArrowRightShort/></button>
+                    </div>
     </Container>
             </div>
 
