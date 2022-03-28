@@ -33,7 +33,7 @@ const Home = () => {
                         <hr/>
                     </Container>
                     <Container>
-                        <Row className={'all_img text-center'}>
+                        <Row className={'all_img'}>
                             <Col md={2}>
                                  <img src={img1} alt={'img1'} />
                             </Col>
@@ -52,8 +52,6 @@ const Home = () => {
                             <Col md={2}>
                                 <img src={img2} alt={'img1'} />
                             </Col>
-                        </Row>
-                        <Row className={'all_img text-center'}>
                             <Col md={2}>
                                 <img src={img2} alt={'img1'} />
                             </Col>

@@ -258,7 +258,8 @@ text-align: center;
 
 .all_img .col-md-2{
     padding: 0;
-    margin-right: -14px;
+    margin: -1%;
+    /*margin-right: -16px;*/
 }
 
 @media (max-width: 768px){
