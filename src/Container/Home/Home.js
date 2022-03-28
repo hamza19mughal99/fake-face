@@ -7,20 +7,19 @@ import img2 from "../../assets/img2.png";
 import img3 from "../../assets/img3.png";
 import img4 from "../../assets/img4.png";
 import img5 from "../../assets/img5.png";
+import "../../App.css";
 
-
-class Home extends React.Component {
-    render() {
+const Home = () => {
         return (
             <>
                 {/*---------------------------------banner-------------------------------*/}
-                <div>
+                <div className={'banner_img'}>
                     <img src={Banner} alt={'banner'}/>
                 </div>
 
                 {/* -------------------------------image gallery section--------------------------- */}
                 <div className={'img_gallery'}>
-                    <div className={'container'}>
+                    <Container>
                         <h2>PHOTO GALLERY</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
@@ -32,9 +31,9 @@ class Home extends React.Component {
                             passages, and more recently with
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         <hr/>
-                    </div>
+                    </Container>
                     <Container>
-                        <Row className={'all_img'}>
+                        <Row className={'all_img text-center'}>
                             <Col md={2}>
                                  <img src={img1} alt={'img1'} />
                             </Col>
@@ -51,10 +50,10 @@ class Home extends React.Component {
                                 <img src={img5} alt={'img1'} />
                             </Col>
                             <Col md={2}>
-                                <img src={img1} alt={'img1'} />
+                                <img src={img2} alt={'img1'} />
                             </Col>
                         </Row>
-                        <Row className={'all_img'}>
+                        <Row className={'all_img text-center'}>
                             <Col md={2}>
                                 <img src={img2} alt={'img1'} />
                             </Col>
@@ -82,7 +81,6 @@ class Home extends React.Component {
                 {/* ----------------------------------footer icon------------------------------------- */}
             </>
         )
-    }
 }
 
 export default Home;
